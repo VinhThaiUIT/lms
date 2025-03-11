@@ -35,6 +35,7 @@ target 'Runner' do
   use_modular_headers!
 
 pod 'FirebaseCoreOnly'
+
   pod 'FirebaseCore'
   pod 'FirebaseMessaging', '~> 15.2.4'
 
