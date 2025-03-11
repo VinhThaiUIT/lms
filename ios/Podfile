@@ -34,6 +34,7 @@ target 'Runner' do
   use_frameworks!
   use_modular_headers!
 
+  pod 'FirebaseCore'
 pod 'FirebaseMessaging'
 pod 'MobileRTC', :git => 'https://github.com/VinhThaiUIT/ZoomSDK.git'
 
