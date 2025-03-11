@@ -1,5 +1,4 @@
 # Uncomment this line to define a global platform for your project
-use_frameworks!
  platform :ios, '14.0'
 
 # CocoaPods analytics sends network stats synchronously affecting flutter build latency.
@@ -32,7 +31,7 @@ target 'Runner' do
   use_frameworks!
   use_modular_headers!
 
-pod 'ZoomSDK', :git => 'https://github.com/pavelsmelovsky/ZoomSDK.git'
+    pod 'MobileRTC', :path => '../MobileRTC.framework'
 
 
   flutter_install_all_ios_pods File.dirname(File.realpath(__FILE__))
