@@ -31,7 +31,7 @@ target 'Runner' do
   use_frameworks!
   use_modular_headers!
 
-    pod 'MobileRTC', :path => '../MobileRTC.framework'
+    pod 'MobileRTC', :path => 'https://github.com/pavelsmelovsky/ZoomSDK.git'
 
 
   flutter_install_all_ios_pods File.dirname(File.realpath(__FILE__))
