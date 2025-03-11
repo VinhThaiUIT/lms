@@ -31,7 +31,7 @@ target 'Runner' do
   use_frameworks!
   use_modular_headers!
 
-pod 'MobileRTC', :git => 'git@gitlab.weebpal.com:thainv1/mobilertc.git'
+pod 'ZoomSDK', :git => 'https://github.com/pavelsmelovsky/ZoomSDK.git'
 
 
   flutter_install_all_ios_pods File.dirname(File.realpath(__FILE__))
