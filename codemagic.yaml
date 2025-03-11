@@ -1,0 +1,19 @@
+workflows:
+  ios-build:
+    name: iOS Build
+    environment:
+      flutter: stable
+      xcode: latest
+      cocoapods: default
+    scripts:
+      - name: Clean Flutter & Pod dependencies
+        script: |
+          flutter clean
+          cd ios && pod install --repo-update && cd ..
+      - name: Build iOS
+        script: |
+          flutter build ios --no-codesign
+    artifacts:
+      - build/ios/iphoneos/**/*.ipa
+      - build/ios/iphoneos/**/*.app
+
