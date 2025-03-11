@@ -31,7 +31,6 @@ target 'Runner' do
   use_frameworks!
   use_modular_headers!
 
-   // pod 'MobileRTC', :git => 'https://github.com/pavelsmelovsky/ZoomSDK.git'
 pod 'ZoomSDK', :git => 'https://github.com/pavelsmelovsky/ZoomSDK.git'
 
 
