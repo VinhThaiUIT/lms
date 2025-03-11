@@ -33,9 +33,11 @@ flutter_ios_podfile_setup
 target 'Runner' do
   use_frameworks!
   use_modular_headers!
-
-  pod 'FirebaseCore'
-pod 'FirebaseMessaging'
+  pod 'Firebase/Analytics'
+  pod 'Firebase/Core'
+  pod 'Firebase/Crashlytics'
+  pod 'Firebase/DynamicLinks'
+  pod 'Firebase/Messaging'
 pod 'MobileRTC', :git => 'https://github.com/VinhThaiUIT/ZoomSDK.git'
 
 
