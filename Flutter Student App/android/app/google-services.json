@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "653744325563",
+    "project_id": "machuytu-lms",
+    "storage_bucket": "machuytu-lms.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:653744325563:android:058af424ae815700e0fa9e",
+        "android_client_info": {
+          "package_name": "com.opencentric.opencentriclms"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWr-pbgE6EFaoeNynHNG96AuORVlmWjDo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
